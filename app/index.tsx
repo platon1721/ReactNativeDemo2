@@ -6,6 +6,7 @@ import beachImage from '@/assets/meditation-images/beach.jpg';
 import CustomButton from "@/components/CustomButton";
 import {useRouter} from "expo-router";
 import AppGradient from "@/components/AppGradient";
+import {LinearGradient} from "expo-linear-gradient";
 
 const Index = () => {
 
@@ -20,8 +21,8 @@ const Index = () => {
             >
                 <AppGradient
                     colors={["rgba(0,0,0,0.4)", "rgba(0,0,0,0.8)"]}>
-                    <View className="flex-1 justify-between">
-                        <View>
+                    <View className="flex-1 px-5 justify-between">
+                        <View className="flex-1 justify-center">
                             <Text className="text-center text-white font-bold text-4xl ">
                                 Simple Meditation
                             </Text>
@@ -30,7 +31,7 @@ const Index = () => {
                             </Text>
                         </View>
                         <View>
-                            <CustomButton onPress={() => router.push("/nature-meditate")} title={"Get Started"}></CustomButton>
+                            <CustomButton onPress={() => router.push("/(tabs)/nature-meditate")} title={"Get Started"}></CustomButton>
                         </View>
                     </View>
                 </AppGradient>

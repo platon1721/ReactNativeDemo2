@@ -1,0 +1,11 @@
+TESTDATA=
+    (DESCRIPTION=
+        (ADDRESS=
+            (PROTOCOL=TCP)
+            (HOST=doris.itcollege.ee)
+            (PORT=1521)
+        )
+        (CONNECT_DATA=
+            (SERVICE_NAME=testdataxdb.intra.ttu.ee)
+        )
+    )

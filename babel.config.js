@@ -10,8 +10,11 @@ module.exports = function (api) {
 
         // 2. Extra plugins Expo expects
         plugins: [
-            'expo-router/babel',
             'react-native-reanimated/plugin',
+
         ],
+
     };
 };
+
+
