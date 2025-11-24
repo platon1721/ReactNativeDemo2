@@ -6,7 +6,7 @@ import AppGradient from "@/components/AppGradient";
 import AFFIRMATION_GALLERY from "@/constants/affirmation-gallery";
 import GuidedAffirmationsGallery from "@/components/GuidedAffirmationsGallery";
 
-const Affirmations = () => {
+const Index = () => {
     return (
         <View className="flex-1">
             <AppGradient colors={["#2e1f58", "#54426b", "#a790af"]}>
@@ -28,4 +28,4 @@ const Affirmations = () => {
     );
 };
 
-export default Affirmations;
+export default Index;
