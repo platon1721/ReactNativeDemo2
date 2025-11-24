@@ -17,8 +17,10 @@ const Affirmations = () => {
                     <View>
                         {AFFIRMATION_GALLERY.map((g) => (
                             <GuidedAffirmationsGallery
+                                key={g.title}
                                 title={g.title}
-                                products={g.data}/>))}
+                                products={g.data}
+                            />))}
                     </View>
                 </ScrollView>
             </AppGradient>
